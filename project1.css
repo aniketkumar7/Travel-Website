@@ -1,0 +1,358 @@
+/* Google Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&display=swap");
+
+/* === Global === */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.navbar .logo {
+    position: relative;
+    color: #0a4556;
+    padding-left: 20px;
+    text-decoration: none;
+    font-size: 5vmin;
+    font-weight: 700;
+    initial-letter: 2px;
+}
+.body .html {
+    overflow-x: hidden;
+}
+
+ul {
+    list-style: none;
+}
+
+li a {
+    display: block;
+    color: rgb(7, 6, 6);
+    text-align: center;
+    padding: 14px 14px;
+    text-decoration: none;
+}
+.navbar a:hover {
+    
+    color: rgb(44, 163, 199);
+  }
+.active {
+    color: rgb(2, 23, 23);
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.navbar {
+    position: absolute;
+    display: flex;
+    top: 0;
+    left: 0;
+    border-bottom: 10px;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.nav-links {
+    display: flex;
+    align-items: flex-end;
+}
+
+
+.nav-links li {
+    margin: 0 15px;
+    transition: color 0.3s ease;
+    color: rgb(24, 20, 20);
+}
+
+a {
+    text-decoration: none;
+}
+
+header {
+    width: 100vw;
+    height: 100vh;
+    background-image: url("./images/bg.jpg"), url("./images/mask.jpg");
+    background-position: bottom;
+    background-blend-mode: screen;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.sci {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    bottom: 40px;
+    right: 50px;
+}
+
+.sci li {
+    list-style: none;
+}
+
+.sci li a {
+    display: inline-block;
+    text-decoration: none;
+    transform: scale(0.6);
+}
+
+.header-content {
+    margin-bottom: 150px;
+    color: rgb(33, 98, 124);
+    text-align: center;
+}
+
+.header-content h2 {
+    font-size: 4vmin;
+}
+
+.content {
+    padding: 50px;
+}
+
+.content h2 {
+    font-size: 9em;
+    line-height: 1em;
+    color: #015b75;
+
+}
+
+.line {
+    width: 200px;
+    height: 4px;
+    background: rgb(105, 127, 130);
+    margin: 10px auto;
+    border-radius: 30px;
+}
+
+.header-content h1 {
+    font-size: 7vmin;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    ;
+}
+
+.ctn {
+    padding: 8px 15px;
+    background: rgba(207, 52, 5, 0.91);
+    border-radius: 30px;
+    color: rgb(241, 234, 234);
+}
+
+.section {
+    width: 80%;
+    margin: 80px auto;
+    background: crimson;
+}
+
+.title {
+    text-align: center;
+    font-size: 4vmin;
+    color: rgb(225, 187, 32);
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+    padding: 60px;
+}
+
+.row .col {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.events .row {
+    margin-top: 50px;
+}
+
+.events .col {
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.explore {
+    width: 100%;
+    height: 100vh;
+    background-image: url('https://images.unsplash.com/photo-1436491865332-7a61a109cc05?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1174&q=80');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    align-items: center;
+    display: flex;
+}
+
+.explore-content {
+    width: 80%;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    color: rgb(46, 68, 73);
+   
+}
+.explores{
+    width: 100%;
+    height: 100vh;
+    background-image: url('https://images.unsplash.com/photo-1574643156929-51fa098b0394?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    align-items: center;
+    display: flex;
+}
+.explore-content h1 {
+    font-size: 8vmin;
+}
+.explore-content .ctn{
+    
+    width: 220px;
+    height: 80px;
+    background: #3f4747;
+}
+.explore-content a{
+    font-size: 5vmin;
+   
+}
+.event .ctn {
+    margin-top: 30px;
+    
+}
+
+.menu-btn {
+    position: absolute;
+    width: 30px;
+    cursor: pointer;
+    display: none;
+}
+
+.tours .row .col {
+    width: 50%;
+}
+
+.tours .image-gallery {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.image-gallery img {
+    width: 310px;
+    margin: 10px;
+}
+
+.content-col h1 {
+    font-size: 7vmin;
+    color: rgb(8, 134, 162);
+}
+
+.content-col p {
+    padding: 0;
+    margin: 30px auto;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    margin-top: 20px;
+}
+
+.gallery .box {
+    overflow: hidden;
+    border-radius: 8px;
+    position: relative;
+    margin-top: 20px;
+    box-shadow: 0 1rem 2rem rgb(158, 187, 191);
+    height: 25rem;
+    margin: 30px;
+    top: 0;
+    left: 0;
+    flex: 1 1 30rem;
+}
+
+.gallery h2 {
+    padding: 20px 100px;
+    font-size: 4em;
+    line-height: .5em;
+    color: #015b75;
+
+}
+
+.gallery .box img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.contact {
+    width: 100%;
+    height: 25vh;
+    background-image: url('./images/sean-oulashin-KMn4VEeEPR8-unsplash.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;   
+}   
+.contact h1{    
+    text-align: center;
+    font-size: 10vmin;
+    margin-top: 20px;
+    color: rgb(252, 249, 249);
+    padding: 30px 80px;
+}
+
+.rows {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+   
+}
+.rows .cols{
+    display: flex;
+    flex-direction: column;
+    margin: 2em 5em;  
+    color: #0a4556;
+}
+
+.cols h3 {
+    color: #015b75;
+    font-size: 5vmin;
+    font-family: sans-serif;
+}
+
+.cols h4, p {    
+    text-align: left;
+    width: 100%;
+    margin-top: 10px;
+}
+
+input,
+textarea {   
+    width: 100%;
+    min-height: 2em;
+    margin: 1em auto;
+    text-align: center;
+}
+textarea, input{
+    background: rgb(208, 234, 241);
+}
+.footer {
+    width: 100%;    
+    padding: 20px 80px;
+    margin: 10;
+    background: rgb(191, 226, 236);
+    text-align: center;
+}
+
+.footer p {
+    color: rgb(6, 11, 14);
+    text-align: center;    
+}
