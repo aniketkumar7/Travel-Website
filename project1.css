@@ -36,7 +36,8 @@ li a {
 .navbar a:hover {
     
     color: rgb(44, 163, 199);
-  }
+}
+
 .active {
     color: rgb(2, 23, 23);
     text-decoration: underline;
@@ -81,7 +82,38 @@ header {
     flex-direction: column;
     justify-content: center;
 }
-
+.know-more{
+    background-color: rgb(226, 230, 231);
+    padding: 30px 0;
+}
+.aboutus{
+    width: 80%;
+    height: 100vh;
+    margin: auto;  
+}
+.about{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.about img{
+    width: 80vh;
+    height: 60vh;
+    border: 2px black;
+    margin: 20px 10px 20px 20px;
+    padding-left: 20px;
+    border-radius: 20px;
+    box-shadow: 1rem 1rem 2rem rgb(40, 71, 50);
+}
+.aboutus h1{
+    border-bottom: 2px solid green;
+    margin: 0px 40px 40px 0px;
+    font-size: 4.5vh;
+}
+.aboutus p{
+    font-size: 3vh;
+    font-weight: 400;
+}
 .sci {
     position: absolute;
     display: flex;
@@ -119,7 +151,7 @@ header {
 .content h2 {
     font-size: 9em;
     line-height: 1em;
-    color: #015b75;
+    color: #035870;
 
 }
 
@@ -169,10 +201,6 @@ header {
     display: flex;
     flex-direction: column;
     align-items: center;
-}
-
-.events .row {
-    margin-top: 50px;
 }
 
 .events .col {
@@ -233,7 +261,10 @@ header {
     cursor: pointer;
     display: none;
 }
-
+.tours{
+    width: 100%;
+    height: 100vh;;
+}
 .tours .row .col {
     width: 50%;
 }
@@ -245,6 +276,7 @@ header {
 
 .image-gallery img {
     width: 310px;
+    height: 300px;
     margin: 10px;
 }
 
