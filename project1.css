@@ -73,7 +73,7 @@ a {
 header {
     width: 100vw;
     height: 100vh;
-    background-image: url("./images/bg.jpg"), url("./images/mask.jpg");
+    background-image: url("bg.jpg"), url("mask.jpg");
     background-position: bottom;
     background-blend-mode: screen;
     background-size: cover;
