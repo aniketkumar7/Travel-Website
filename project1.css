@@ -73,7 +73,7 @@ a {
 header {
     width: 100vw;
     height: 100vh;
-    background-image: url("bg.jpg"), url("mask.jpg");
+    background-image: url("https://img.freepik.com/free-photo/tourist-from-mountain-top-sun-rays-man-wear-big-backpack-against-sun-light_1150-9129.jpg?size=626&ext=jpg&ga=GA1.2.1446345481.1666941254&semt=sph"), url("mask.jpg");
     background-position: bottom;
     background-blend-mode: screen;
     background-size: cover;
