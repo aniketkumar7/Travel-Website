@@ -1,2 +1,2 @@
 # Travel Website using HTML AND CSS. 
-This contains the source code of how to bulid travel website using HTML and CSS.
+This repository contains the source code of making Travel Website using HTML and CSS.
